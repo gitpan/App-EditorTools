@@ -1,6 +1,6 @@
 ---
 name: App-EditorTools
-version: 0.02
+version: 0.03
 author:
   - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
 abstract: Command line tools to leverage PPIx::EditorTools (and maybe more)
@@ -10,6 +10,7 @@ resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/app-editortools/tree/master
 requires:
+  App::Cmd: 0
   PPIx::EditorTools: 0
   perl: 5.008
 build_requires:
@@ -18,7 +19,9 @@ build_requires:
 provides:
   App::EditorTools:
     file: lib/App/EditorTools.pm
-    version: 0.02
+    version: 0.03
+  App::EditorTools::Command::IntroduceTemporaryVariable:
+    file: lib/App/EditorTools/Command/IntroduceTemporaryVariable.pm
   App::EditorTools::Command::RenamePackage:
     file: lib/App/EditorTools/Command/RenamePackage.pm
   App::EditorTools::Command::RenamePackageFromPath:
