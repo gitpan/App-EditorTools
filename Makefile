@@ -1,4 +1,4 @@
-#     PREREQ_PM => { Test::Differences=>q[0], IPC::Run3=>q[0], PPIx::EditorTools=>q[0] }
+#     PREREQ_PM => { Test::Differences=>q[0], IPC::Run3=>q[0], PPIx::EditorTools=>q[0], FindBin::libs=>q[0], App::Cmd=>q[0] }
 
 all : force_do_it
 	/usr/bin/perl Build --makefile_env_macros 1

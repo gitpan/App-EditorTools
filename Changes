@@ -1,3 +1,13 @@
+2009-07-06  Mark Grimes <mgrimes@cpan.org>
+
+	* Build.PL, lib/App/EditorTools.pm, lib/App/EditorTools/Vim.pm,
+	script/editortools-vim: Resolved RT 47635/47616/47617 	- Added Ovid's PickFromList function to editortools.vim 	- Fixed dep 	- Added version info to vim script 	- Changed shebang
+
+2009-07-04  Mark Grimes <mgrimes@cpan.org>
+
+	* Build.PL, MANIFEST, MANIFEST.SKIP, lib/App/EditorTools.pm: Updated
+	version and build files for release
+
 2009-07-04  Mark Grimes <mgrimes@cpan.org>
 
 	* .gitignore, MANIFEST, MANIFEST.SKIP, lib/App/EditorTools/Vim.pm: 
