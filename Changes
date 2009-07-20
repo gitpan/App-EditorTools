@@ -1,3 +1,22 @@
+2009-07-20  Mark Grimes <mgrimes@cpan.org>
+
+	* lib/App/EditorTools.pm: Added a contributors section to Authors
+	pod
+
+2009-07-20  Shlomi Fish <shlomif@iglu.org.il>
+
+	* lib/App/EditorTools/Vim.pm: Corrected the wrong path for
+	ftplugin/perl.
+
+2009-07-20  Shlomi Fish <shlomif@iglu.org.il>
+
+	* lib/App/EditorTools/Vim.pm: Corrected a typo - "script" instead of
+	"scrip".
+
+2009-07-20  Shlomi Fish <shlomif@iglu.org.il>
+
+	* INSTALL: Corrected the package name.
+
 2009-07-06  Mark Grimes <mgrimes@cpan.org>
 
 	* Build.PL, lib/App/EditorTools.pm, lib/App/EditorTools/Vim.pm,

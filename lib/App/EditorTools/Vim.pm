@@ -6,7 +6,7 @@ App::EditorTools::Vim - Vim script to integrate with App::EditorTools
 
 =head1 SYNOPSIS
     
-    perl -MApp::EditorTools::Vim -e run > $HOME/.vim/ftplugin/editortools.vim
+    perl -MApp::EditorTools::Vim -e run > $HOME/.vim/ftplugin/perl/editortools.vim
 
 =head1 DESCRIPTION
 
@@ -14,9 +14,9 @@ Place the vim script in C<DATA> in
 C<$HOME/.vim/ftplugin/perl/editortools.vim>
 (or similar on non-unix systems). Running
 
-    perl -MApp::EditorTools::Vim -e run > $HOME/.vim/ftplugin/editortools.vim
+    perl -MApp::EditorTools::Vim -e run > $HOME/.vim/ftplugin/perl/editortools.vim
 
-should dump the scrip to the correct file.
+should dump the script to the correct file.
 
 =head1 MAPPINGS
 
