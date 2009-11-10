@@ -1,62 +1,27 @@
+2009-09-23  Mark Grimes 
+	Updated to work with App:Cmd 0.301
+	- changed run sub to execute
+	- changed -run to App->run
+
+0.06 - Mon Nov  9 22:36:58 2009
+	Updated for for new version of App::Cmd (depr run for execute)
+
 2009-07-20  Mark Grimes <mgrimes@cpan.org>
-
-	* lib/App/EditorTools.pm: Added a contributors section to Authors
-	pod
+	Added a contributors section to Authors pod
 
 2009-07-20  Shlomi Fish <shlomif@iglu.org.il>
-
-	* lib/App/EditorTools/Vim.pm: Corrected the wrong path for
-	ftplugin/perl.
+	Corrected the wrong path for ftplugin/perl.
 
 2009-07-20  Shlomi Fish <shlomif@iglu.org.il>
-
-	* lib/App/EditorTools/Vim.pm: Corrected a typo - "script" instead of
-	"scrip".
+	Corrected a typo - "script" instead of "scrip".
 
 2009-07-20  Shlomi Fish <shlomif@iglu.org.il>
-
 	* INSTALL: Corrected the package name.
 
 2009-07-06  Mark Grimes <mgrimes@cpan.org>
-
-	* Build.PL, lib/App/EditorTools.pm, lib/App/EditorTools/Vim.pm,
-	script/editortools-vim: Resolved RT 47635/47616/47617 	- Added Ovid's PickFromList function to editortools.vim 	- Fixed dep 	- Added version info to vim script 	- Changed shebang
-
-2009-07-04  Mark Grimes <mgrimes@cpan.org>
-
-	* Build.PL, MANIFEST, MANIFEST.SKIP, lib/App/EditorTools.pm: Updated
-	version and build files for release
-
-2009-07-04  Mark Grimes <mgrimes@cpan.org>
-
-	* .gitignore, MANIFEST, MANIFEST.SKIP, lib/App/EditorTools/Vim.pm: 
-	Added the vim scripts and updated the MANIFEST, etc.
-
-2009-06-28  Mark Grimes <mgrimes@cpan.org>
-
-	* .gitignore,
-	lib/App/EditorTools/Command/IntroduceTemporaryVariable.pm,
-	samples/introtempvar.pl, samples/lib/New/Package/Name.pm,
-	samples/renamevar.pm, samples/test.pm, t/00-use.t, t/10-run.t: Added
-	IntroduceTemporaryVariable 	- updated the screencasts 	- updated tests
-
-2009-06-24  Mark Grimes <mgrimes@cpan.org>
-
-	* .gitignore, Build.PL, MANIFEST, README, lib/App/EditorTools.pm: 
-	Updated to prepare for release to CPAN
-
-2009-06-24  Mark Grimes <mgrimes@cpan.org>
-
-	* lib/App/EditorTools/Command/RenamePackage.pm,
-	lib/App/EditorTools/Command/RenamePackageFromPath.pm,
-	lib/App/EditorTools/Command/RenameVariable.pm: Updated to the new
-	PPIx::EditorTools API 	- Using the ReturnObject
-
-2009-06-21  Mark Grimes <mgrimes@cpan.org>
-
-	* .gitignore, Build.PL: Fixed prereqs
-
-2009-06-21  Mark Grimes <mgrimes@cpan.org>
-
-	* Initial import
+	script/editortools-vim: Resolved RT 47635/47616/47617
+	- Added Ovid's PickFromList function to editortools.vim
+	- Fixed dep
+	- Added version info to vim script
+	- Changed shebang
 
