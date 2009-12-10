@@ -3,10 +3,13 @@ abstract: 'Command line tools to leverage PPIx::EditorTools (and maybe more)'
 author:
   - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
 build_requires:
+  File::Find: 0
   Test::Differences: 0
+  Test::More: 0.87
+  Text::Diff: 0
 configure_requires:
   Module::Build: 0.35
-generated_by: 'Module::Build version 0.3505'
+generated_by: 'Module::Build version 0.3508'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,7 +18,7 @@ name: App-EditorTools
 provides:
   App::EditorTools:
     file: lib/App/EditorTools.pm
-    version: 0.08
+    version: 0.09
   App::EditorTools::Command::IntroduceTemporaryVariable:
     file: lib/App/EditorTools/Command/IntroduceTemporaryVariable.pm
   App::EditorTools::Command::RenamePackage:
@@ -35,4 +38,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-EditorTools
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/app-editortools
-version: 0.08
+version: 0.09
