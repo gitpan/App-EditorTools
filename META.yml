@@ -18,10 +18,10 @@ name: App-EditorTools
 provides:
   App::EditorTools:
     file: lib/App/EditorTools.pm
-    version: 0.10
+    version: 0.11
   App::EditorTools::Command::InstallEmacs:
     file: lib/App/EditorTools/Command/InstallEmacs.pm
-    version: 0.01
+    version: 0.02
   App::EditorTools::Command::InstallVim:
     file: lib/App/EditorTools/Command/InstallVim.pm
     version: 0.07
@@ -46,4 +46,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-EditorTools
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/app-editortools
-version: 0.10
+version: 0.11
