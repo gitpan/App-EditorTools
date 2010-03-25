@@ -1,5 +1,5 @@
 ---
-abstract: 'Command line tools to leverage PPIx::EditorTools (and maybe more)'
+abstract: 'Command line tool for Perl code refactoring'
 author:
   - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
 build_requires:
@@ -8,8 +8,8 @@ build_requires:
   Test::More: 0.87
   Text::Diff: 0
 configure_requires:
-  Module::Build: 0.35
-generated_by: 'Module::Build version 0.3508'
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,7 +18,13 @@ name: App-EditorTools
 provides:
   App::EditorTools:
     file: lib/App/EditorTools.pm
-    version: 0.09
+    version: 0.10
+  App::EditorTools::Command::InstallEmacs:
+    file: lib/App/EditorTools/Command/InstallEmacs.pm
+    version: 0.01
+  App::EditorTools::Command::InstallVim:
+    file: lib/App/EditorTools/Command/InstallVim.pm
+    version: 0.07
   App::EditorTools::Command::IntroduceTemporaryVariable:
     file: lib/App/EditorTools/Command/IntroduceTemporaryVariable.pm
   App::EditorTools::Command::RenamePackage:
@@ -27,15 +33,17 @@ provides:
     file: lib/App/EditorTools/Command/RenamePackageFromPath.pm
   App::EditorTools::Command::RenameVariable:
     file: lib/App/EditorTools/Command/RenameVariable.pm
-  App::EditorTools::Vim:
-    file: lib/App/EditorTools/Vim.pm
-    version: 0.05
 requires:
   App::Cmd: 0.301
+  File::Basename: 0
+  File::HomeDir: 0.80
+  File::Path: 0
+  File::Slurp: 0
+  IPC::Cmd: 0
   PPIx::EditorTools: 0
   perl: 5.008
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-EditorTools
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/app-editortools
-version: 0.09
+version: 0.10
