@@ -18,15 +18,17 @@ name: App-EditorTools
 provides:
   App::EditorTools:
     file: lib/App/EditorTools.pm
-    version: 0.11
+    version: 0.12
   App::EditorTools::Command::InstallEmacs:
     file: lib/App/EditorTools/Command/InstallEmacs.pm
-    version: 0.02
+    version: 0.03
   App::EditorTools::Command::InstallVim:
     file: lib/App/EditorTools/Command/InstallVim.pm
-    version: 0.07
+    version: 0.08
   App::EditorTools::Command::IntroduceTemporaryVariable:
     file: lib/App/EditorTools/Command/IntroduceTemporaryVariable.pm
+  App::EditorTools::Command::Parent::Install:
+    file: lib/App/EditorTools/Command/Parent/Install.pm
   App::EditorTools::Command::RenamePackage:
     file: lib/App/EditorTools/Command/RenamePackage.pm
   App::EditorTools::Command::RenamePackageFromPath:
@@ -38,12 +40,14 @@ requires:
   File::Basename: 0
   File::HomeDir: 0.80
   File::Path: 0
+  File::ShareDir: 1.00
   File::Slurp: 0
   IPC::Cmd: 0
   PPIx::EditorTools: 0
+  parent: 0
   perl: 5.008
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-EditorTools
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/app-editortools
-version: 0.11
+version: 0.12
