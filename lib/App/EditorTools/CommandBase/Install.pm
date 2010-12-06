@@ -1,4 +1,4 @@
-package App::EditorTools::Command::Parent::Install;
+package App::EditorTools::CommandBase::Install;
 
 use strict;
 use warnings;
@@ -7,11 +7,12 @@ use File::Basename;
 use File::Path qw(mkpath);
 use File::Slurp;
 use File::ShareDir qw(dist_file);
+use App::Cmd::Setup -command;
 
 sub execute {
     my ( $self, $opt, $arg ) = @_;
 
-    print STDERR "Installing emacs script to:\n";
+    print STDERR "Installing script to:\n";
     print STDERR $opt->{dest} || 'STDOUT';
     print STDERR "\n";
 

@@ -9,7 +9,7 @@ build_requires:
   Text::Diff: 0
 configure_requires:
   Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+generated_by: 'Module::Build version 0.3607'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,7 +18,7 @@ name: App-EditorTools
 provides:
   App::EditorTools:
     file: lib/App/EditorTools.pm
-    version: 0.12
+    version: 0.14
   App::EditorTools::Command::InstallEmacs:
     file: lib/App/EditorTools/Command/InstallEmacs.pm
     version: 0.03
@@ -27,14 +27,14 @@ provides:
     version: 0.08
   App::EditorTools::Command::IntroduceTemporaryVariable:
     file: lib/App/EditorTools/Command/IntroduceTemporaryVariable.pm
-  App::EditorTools::Command::Parent::Install:
-    file: lib/App/EditorTools/Command/Parent/Install.pm
   App::EditorTools::Command::RenamePackage:
     file: lib/App/EditorTools/Command/RenamePackage.pm
   App::EditorTools::Command::RenamePackageFromPath:
     file: lib/App/EditorTools/Command/RenamePackageFromPath.pm
   App::EditorTools::Command::RenameVariable:
     file: lib/App/EditorTools/Command/RenameVariable.pm
+  App::EditorTools::CommandBase::Install:
+    file: lib/App/EditorTools/CommandBase/Install.pm
 requires:
   App::Cmd: 0.301
   File::Basename: 0
@@ -50,4 +50,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-EditorTools
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/app-editortools
-version: 0.12
+version: 0.14
