@@ -1,6 +1,9 @@
 NAME
     App::EditorTools - Command line tool for Perl code refactoring
 
+VERSION
+    version 0.18
+
 DESCRIPTION
     "App::EditorTools" provides the "editortools" command line program that
     enables programming editors (Vim, Emacs, etc.) to take advantage of some
@@ -15,6 +18,9 @@ DESCRIPTION
     *   Rename the Package Based on the Path of the File
 
     More refactoring tools are expected to be added in the future.
+
+NAME
+    App::EditorTools - Command line tool for Perl code refactoring
 
 BACKGROUND
     The Padre Perl editor team developed some very interesting PPI based
@@ -109,16 +115,9 @@ BUGS
 AUTHOR
     Mark Grimes, <mgrimes@cpan.org>
 
-    Bug fixes and contributions from:
-
-    *   Shlomi Fish
-
-    *   Pat Regan (emacs interface)
-
 COPYRIGHT AND LICENSE
-    Copyright (C) 2010 by Mark Grimes
+    This software is copyright (c) 2013 by Mark Grimes, <mgrimes@cpan.org>.
 
-    This library is free software; you can redistribute it and/or modify it
-    under the same terms as Perl itself, either Perl version 5.8.2 or, at
-    your option, any later version of Perl 5 you may have available.
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 

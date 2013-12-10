@@ -12,7 +12,6 @@ lib/App/EditorTools/CommandBase/Install.pm
 lib/App/EditorTools/Emacs.pod
 lib/App/EditorTools/Vim.pod
 MANIFEST			This list of files
-README
 samples/introtempvar.pl
 samples/lib/New/Package/Name.pm
 samples/renamevar.pm
@@ -30,11 +29,17 @@ t/CmdRenamePackage.t
 t/CmdRenamePackageFromPath.t
 t/CmdRenameVariable.t
 t/lib/AETest.pm
-xt/95-prereq.t
-xt/96-kwalitee.t
-xt/97-critic.t
-xt/98-pod.t
-xt/99-podcoverage.t
+xt/check-changes.t
+xt/critic.t
+xt/fixme.t
+xt/hasversion.t
+xt/kwalitee.t
+xt/manifest.t
+xt/meta.t
+xt/minimumversion.t
 xt/perlcriticrc
+xt/pod-coverage.t
+xt/pod.t
+README
 META.yml
 META.json
