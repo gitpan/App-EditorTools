@@ -1,6 +1,5 @@
 Build.PL
 Changes
-INSTALL
 lib/App/EditorTools.pm
 lib/App/EditorTools/Command/InstallEmacs.pm
 lib/App/EditorTools/Command/InstallVim.pm
