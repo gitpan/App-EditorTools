@@ -8,7 +8,7 @@ use Path::Class;
 
 use App::EditorTools -command;
 
-our $VERSION = '0.19';
+our $VERSION = '1.00';
 
 sub opt_spec {
     return ( [ "filename|f=s", "The filename and path of the package", ] );
@@ -53,7 +53,7 @@ App::EditorTools::Command::RenamePackageFromPath - Rename the package based on t
 
 =head1 VERSION
 
-version 0.19
+version 1.00
 
 =head1 DESCRIPTION
 

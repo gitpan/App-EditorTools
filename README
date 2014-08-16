@@ -2,7 +2,7 @@ NAME
     App::EditorTools - Command line tool for Perl code refactoring
 
 VERSION
-    version 0.19
+    version 1.00
 
 DESCRIPTION
     "App::EditorTools" provides the "editortools" command line program that

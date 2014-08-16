@@ -7,7 +7,7 @@ use warnings;
 
 use App::Cmd::Setup -app;
 
-our $VERSION = '0.19';
+our $VERSION = '1.00';
 
 1;
 
@@ -21,7 +21,7 @@ App::EditorTools - Command line tool for Perl code refactoring
 
 =head1 VERSION
 
-version 0.19
+version 1.00
 
 =head1 DESCRIPTION
 
@@ -173,7 +173,6 @@ lackita (emacs patch)
 mannih (vim patch)
 
 =back
-
 
 =head1 AUTHOR
 

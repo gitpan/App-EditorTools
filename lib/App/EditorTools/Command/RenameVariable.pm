@@ -7,7 +7,7 @@ use warnings;
 
 use App::EditorTools -command;
 
-our $VERSION = '0.19';
+our $VERSION = '1.00';
 
 sub opt_spec {
     return (
@@ -52,7 +52,7 @@ App::EditorTools::Command::RenameVariable - Lexically Rename a Variable
 
 =head1 VERSION
 
-version 0.19
+version 1.00
 
 =head1 DESCRIPTION
 

@@ -11,7 +11,7 @@ use File::Slurp;
 use File::ShareDir qw(dist_file);
 use App::Cmd::Setup -command;
 
-our $VERSION = '0.19';
+our $VERSION = '1.00';
 
 sub execute {
     my ( $self, $opt, $arg ) = @_;
@@ -96,7 +96,7 @@ App::EditorTools::CommandBase::Install - Base class for installing bindings for 
 
 =head1 VERSION
 
-version 0.19
+version 1.00
 
 =head1 AUTHOR
 

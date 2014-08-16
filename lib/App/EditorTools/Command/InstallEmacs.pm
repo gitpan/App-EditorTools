@@ -9,7 +9,7 @@ use parent 'App::EditorTools::CommandBase::Install';
 #use App::EditorTools -command;
 use File::HomeDir;
 
-our $VERSION = '0.19';
+our $VERSION = '1.00';
 
 sub command_names { 'install-emacs' }
 
@@ -73,7 +73,7 @@ App::EditorTools::Command::InstallEmacs - Install emacs bindings for App::Editor
 
 =head1 VERSION
 
-version 0.19
+version 1.00
 
 =head1 SYNOPSIS
 

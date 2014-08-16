@@ -1,5 +1,8 @@
 Changes for App::EditorTools
 
+1.00 - Sat Aug 16 09:53:38 EDT 2014
+    Bumps to version 1.00. Been stable for several years now.
+
 0.19 - Thu Jun 19 22:35:51 EDT 2014
     Let users choose their own leader key, simplify menu
     Since not all vim users might like to use the comma as their leader, we

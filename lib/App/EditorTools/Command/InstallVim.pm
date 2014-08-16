@@ -10,7 +10,7 @@ use parent 'App::EditorTools::CommandBase::Install';
 use File::HomeDir;
 # use IPC::Cmd qw(run);
 
-our $VERSION = '0.19';
+our $VERSION = '1.00';
 
 sub command_names { 'install-vim' }
 
@@ -93,7 +93,7 @@ App::EditorTools::Command::InstallVim - Installs vim bindings for App::EditorToo
 
 =head1 VERSION
 
-version 0.19
+version 1.00
 
 =head1 SYNOPSIS
 
